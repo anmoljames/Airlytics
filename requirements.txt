@@ -1,0 +1,26 @@
+# Airlytics — tested with Python 3.11 on Windows
+# Install:  pip install -r requirements.txt
+
+streamlit==1.56.0
+streamlit-folium==0.27.1
+folium==0.20.0
+
+pandas==2.3.3
+numpy==2.4.4
+pyarrow==23.0.1
+
+scikit-learn==1.8.0
+lifelines==0.30.3
+
+matplotlib==3.10.8
+seaborn==0.13.2
+
+geopy==2.4.1
+requests==2.33.1
+python-dotenv==1.2.4
+
+# Optional — only needed for the AWS / Google Drive integrations.
+# The app runs fine without them; those buttons simply report
+# "not configured" instead of uploading.
+boto3==1.42.89
+google-api-python-client==2.194.0

@@ -1,0 +1,28 @@
+# ---- Secrets — never commit these ----
+.env
+cloud_key.json
+*.pem
+*.p12
+service-account*.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Streamlit / Jupyter ----
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Build artefacts ----
+dist/
+build/
