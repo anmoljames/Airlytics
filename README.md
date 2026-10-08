@@ -2,6 +2,10 @@
 
 **AI-powered air-quality intelligence — forecasting, anomaly detection and survival-risk modelling on live telemetry, with optional multi-cloud sync.**
 
+**Live Demo:** https://airlytics08.streamlit.app/
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://airlytics08.streamlit.app/)
+
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.56-FF4B4B?logo=streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-1.8-F7931E?logo=scikitlearn&logoColor=white)
